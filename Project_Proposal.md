@@ -33,7 +33,7 @@ Or The target will be daily box office revenue.
 - At this time there are no plans to utilize additional tools beyond what has been identified  
 
 ### MVP
-The MVP goal of this project is one data visualization showing the prediction of which genres will produce the most daily box office revenue.
+The MVP goal of this project is a linear regression model with one feature genre and its relationship to daily box office revenue.
 
 ### Potential Additional Data Sources
 -  Popular news stories 
