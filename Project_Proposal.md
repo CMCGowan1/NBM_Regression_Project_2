@@ -21,12 +21,13 @@ The features of the data set we expect to work with are: genre, brand, franchise
 - Daily Box Office
 - Day of the Week: MTWTFSS
 - Movie Title
+- Ave Daily Revenue for total days released - like per square foot sales
+
 
 A subset of the features will be the individual sample/unit of analysis in this project.  TBD based on an iterative process using Linear Regression modeling to find the feature or features that best fit the model.
 
 ## Target
-Can this be a target? Ave Daily Revenue for total days released - like per square foot sales
-Or The target will be daily box office revenue. 
+The target will be daily box office revenue. 
 
 ### Model and Tools
 - Beautiful soup and Selenium will be used for webscraping.  Beautiful Soup will be used to parse the HTML data and Selenium will be used as a driver for site navigation
@@ -45,7 +46,3 @@ The MVP goal of this project is a linear regression model with one feature genre
 -  Popular TV genres
 -  IMDbPro Free trial may have additional data points
 
-
-Notes to finish:
-
-Finalize target - discuss with Leon
