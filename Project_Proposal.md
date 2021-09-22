@@ -22,6 +22,6 @@ The MVP goal of this project is one data visualization showing the prediction of
 
 Notes to finish:
 What is an individual sample/unit of analysis in this project?
-What other types of data would be avaialbe to bring into this analysis?  Popular news stories?  Top Book Genres?  Pulitzer prize willing books, Oprahs book club?  
+What other types of data would be avaialbe to bring into this analysis?  Popular news stories?  Top Book Genres?  Pulitzer prize willing books, Oprahs book club?  Popular TV genres?
 
 
