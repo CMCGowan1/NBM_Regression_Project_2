@@ -1,6 +1,6 @@
 # Box Office Mojo Revenue Analysis
 
-A movie producer has engaged CMCAnalytics to complete a data science project to answer this question, how to maximize future movie box office revenue?  Due to the pandemic, movie tastes may be changing, the client is specifically interested in which genres the movie going public is interested in seeing. Can we predict what movie genre will produce the most daily revenue at the box office?  The movie producer will use this information to guide decision making on which movies to produce in the coming years for their company. 
+A movie producer has engaged CMCAnalytics, AKA Cheryl McGowan, to complete a data science project to answer this question, how to maximize future movie box office revenue?  Due to the pandemic, movie tastes may be changing, the client is specifically interested in which genres the movie going public is interested in seeing. Can we predict what movie genre will produce the most daily revenue at the box office?  The movie producer will use this information to guide decision making on which movies to produce in the coming years for their company. 
 
 ### Data
 Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be scraped using Beautiful Soup and potentially Selenium.  
