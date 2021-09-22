@@ -22,6 +22,8 @@ The features of the data set we expect to work with are: genre, brand, franchise
 - Day of the Week: MTWTFSS
 - Movie Title
 
+A subset of the features will be the individual sample/unit of analysis in this project.  TBD based on an iterative process using Linear Regression modeling to find the feature or features that best fit the model.
+
 ## Target
 Can this be a target? Ave Daily Revenue for total days released - like per square foot sales
 Or The target will be daily box office revenue. 
@@ -45,5 +47,5 @@ The MVP goal of this project is a linear regression model with one feature genre
 
 
 Notes to finish:
-What is an individual sample/unit of analysis in this project?
+
 Finalize target - discuss with Leon
