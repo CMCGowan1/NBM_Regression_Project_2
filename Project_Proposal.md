@@ -10,9 +10,9 @@ The features of the data set we expect to work with are genre, day of the week f
 The target will be daily box office revenue.
 
 ### Model and Tools
-A linear regression model will be used to analyze the data.  
-Matplotlib and Seaborn will be used for visualization.
-At this time there are no plans to utilize additional tools beyond what has been identified.  
+- A linear regression model will be used to analyze the data  
+- Matplotlib and Seaborn will be used for visualization
+- At this time there are no plans to utilize additional tools beyond what has been identified  
 
 ### MVP
 The MVP goal of this project is one data visualization showing the prediction of which genres will produce the most daily box office revenue.
