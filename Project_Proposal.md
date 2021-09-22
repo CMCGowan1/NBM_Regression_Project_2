@@ -6,7 +6,7 @@ A movie producer has engaged CMCAnalytics, AKA Cheryl McGowan, to complete a dat
 Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be scraped using Beautiful Soup and potentially Selenium.  
 
 ### Features and Target
-The features of the data set we expect to work with are genre, day of the week for daily box office revenue, budget, movie title, language, country of origin, brand, franchise, and release date. 
+The features of the data set we expect to work with are genre, day of the week for daily box office revenue, budget, movie title, language, country of origin, brand, franchise, top movies for 2021 and release date. 
 
 The target will be daily box office revenue.
 
