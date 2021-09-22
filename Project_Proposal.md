@@ -27,7 +27,7 @@ The features of the data set we expect to work with are: genre, brand, franchise
 
 - Daily Box Office
 
-Day of the Week - MTWTFSS
+- Day of the Week - MTWTFSS
 
 ## Target
 Can this be a target? Ave Daily Revenue for total days released - like per square foot sales
