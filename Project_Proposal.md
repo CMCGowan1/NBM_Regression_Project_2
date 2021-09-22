@@ -6,19 +6,15 @@ Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be s
 
 The features of the data set we expect to work with are genre, day of the week for daily box office revenue, budget, movie title, language, country of origin, brand, franchise, and release date. 
 
-A linear regression model will be used to analyze the data.  Matplotlib and Seaborn will be used for visualization.
-
 The target will be daily box office revenue.
 
+A linear regression model will be used to analyze the data.  Matplotlib and Seaborn will be used for visualization.
 
-Data Description:
+The MVP goal of this project is one data visualization showing the prediction of which genres will produce the most daily box office revenue.
 
+At this time there are no plans to utilize additional tools beyond what has been identified.  
+
+Notes to finish:
 What is an individual sample/unit of analysis in this project?
 
-Tools:
 
-How do you intend to meet the tools requirement of the project?
-Are you planning in advance to need or use additional tools beyond those required?
-MVP Goal:
-
-What would a minimum viable product (MVP) look like for this project?
