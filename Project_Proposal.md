@@ -6,14 +6,14 @@ A movie producer has engaged CMCAnalytics, AKA Cheryl McGowan, to complete a dat
 Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be scraped using Beautiful Soup and Selenium.  Data from 2020 and 2021 will not be used due to the pandemic shuttering theaters.
 
 ### Features and Target
-The features of the data set we expect to work with are: genre, brand, franchise, language, lifetime gross, release date, day of the week for daily box office revenue, budget, movie title, language, country of origin, top movies for 2021 and release date. 
+The features of the data set we expect to work with are: genre, brand, franchise, country of origin, budget, lifetime gross, release date, day of the week for daily box office revenue, movie title, language, country of origin, top movies for 2021 and release date. 
 
 - Genre is a category of artistic composition, characterized by similarities in form, style, or subject matter. More specifically, a film genre is a motion picture category based on the narrative elements that relate to the main driving force behind the story arc. There are 30 Genres in the data set.  
   - Action | Adult | Adventure | Animation| Biography | Comedy | Crime | Documentary | Drama| Family | Fantasy| Film Noir | Game Show | History | Horror | Musical| Music | Mystery | News | Reality-TV | Romance | Sci-Fi | Short| Sport | Talk-Show | Thriller | War | Western 
 
-- Brand - examples include Marvel Comics, Lucasfilm, Pixar, etc
+- Brand examples include Marvel Comics, Lucasfilm, Pixar, etc
 
-- Franchise - examples of francishe are Marvel Cinematic Universe, Star Wars, Jurassic Park, etc
+- Franchise examples are Marvel Cinematic Universe, Star Wars, Jurassic Park, etc
 
 - Country of Origin  
 
@@ -21,13 +21,13 @@ The features of the data set we expect to work with are: genre, brand, franchise
 
 - Lifetime Gross  
 
-- Release Date - Date of original release, not re-release
+- Release Date of original release, not re-release
 
-- Numbers of Days Since Release - calculated from Release Date and End date of December 31, 2019.
+- Numbers of Days Since Release Date calculated from Original Release Date and end date of December 31, 2019.
 
 - Daily Box Office
 
-- Day of the Week - MTWTFSS
+- Day of the Week: MTWTFSS
 
 ## Target
 Can this be a target? Ave Daily Revenue for total days released - like per square foot sales
