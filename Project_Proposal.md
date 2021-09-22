@@ -9,7 +9,7 @@ Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be s
 The features of the data set we expect to work with are: genre, brand, franchise, language, lifetime gross, release date, day of the week for daily box office revenue, budget, movie title, language, country of origin, top movies for 2021 and release date. 
 
 - Genre is a category of artistic composition, characterized by similarities in form, style, or subject matter. More specifically, a film genre is a motion picture category based on the narrative elements that relate to the main driving force behind the story arc. There are 30 Genres in the data set.  
--- Action | Adult | Adventure | Animation| Biography | Comedy | Crime | Documentary | Drama| Family | Fantasy| Film Noir | Game Show | History | Horror | Musical| Music | Mystery | News | Reality-TV | Romance | Sci-Fi | Short| Sport | Talk-Show | Thriller | War | Western 
+  - Action | Adult | Adventure | Animation| Biography | Comedy | Crime | Documentary | Drama| Family | Fantasy| Film Noir | Game Show | History | Horror | Musical| Music | Mystery | News | Reality-TV | Romance | Sci-Fi | Short| Sport | Talk-Show | Thriller | War | Western 
 
 - Brand - examples include Marvel Comics, Lucasfilm, Pixar, etc
 
