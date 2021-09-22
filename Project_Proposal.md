@@ -3,7 +3,7 @@
 A movie producer has engaged CMCAnalytics, AKA Cheryl McGowan, to complete a data science project to figure out how to maximize future movie box office revenue.  The client is specifically interested in which genres the movie going public is interested in seeing. Can we predict what movie genre will produce the most daily revenue at the box office?  The movie producer will use this information to guide decision making on which movies to produce in the coming years for their company. Additional insight may be available on which brands or franchises to partner with in order to bring new movies to market and what day of the week is most impactful to release a certain genre.
 
 ### Data
-Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be scraped using Beautiful Soup and potentially Selenium.  Data from 2020 and 2021 will not be used due to the pandemic shuttering theaters.
+Metrics on www.boxofficemojo.com will be used for this analysis.  Data will be scraped using Beautiful Soup and Selenium.  Data from 2020 and 2021 will not be used due to the pandemic shuttering theaters.
 
 ### Features and Target
 The features of the data set we expect to work with are: genre, brand, franchise, language, lifetime gross, release date, day of the week for daily box office revenue, budget, movie title, language, country of origin, top movies for 2021 and release date. 
@@ -29,15 +29,13 @@ Daily Box Office
 
 Day of the Week - MTWTFSS
 
-Note:  Due to the pandemic the data will exclude entries for 2020 and 2021
-
 ## Target
 Can this be a target? Ave Daily Revenue for total days released - like per square foot sales
 Or The target will be daily box office revenue. 
 
 ### Model and Tools
-- Beautiful soup will be used for webscraping, Selenium may be used depending on site complexity
-- A linear regression model will be used to analyze the data  
+- Beautiful soup and Selenium will be used for webscraping.  Beautiful Soup will be used to parse the HTML data and Selenium will be used as a driver for site navigation
+- A linear regression model will be used to model the data  
 - Matplotlib and Seaborn will be used for visualization
 - At this time there are no plans to utilize additional tools beyond what has been identified  
 
@@ -55,3 +53,4 @@ The MVP goal of this project is one data visualization showing the prediction of
 
 Notes to finish:
 What is an individual sample/unit of analysis in this project?
+Finalize target - discuss with Leon
