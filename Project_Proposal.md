@@ -42,7 +42,7 @@ The MVP goal of this project is a linear regression model with one feature genre
 -  Popular news stories 
 -  Top Book Genres 
 -  Pulitzer prize willing books
--  Oprahs book club
+-  Oprahs book club 
 -  Popular TV genres
 -  IMDbPro Free trial may have additional data points
 
