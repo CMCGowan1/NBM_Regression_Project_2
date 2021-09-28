@@ -14,6 +14,8 @@ The goal of this project is to better understand which features affect box offic
 The Target is:
 - worldwide gross
 
+The data was cleaned of duplicates and NaN values.
+
 To start exploring this goal, I used a pair plot to view a subset of the features that have numeric values: domestic gross, international gross, budget and runtime.  The pair plot will be used to look for colinearity or multicolinearity.  
 
 ![image](https://github.com/CMCGowan1/NBM_Regression_Project_2/blob/main/Screen%20Shot%202021-09-28%20at%201.45.38%20PM.png)
@@ -28,6 +30,8 @@ Feature coefficient results:
   - runtime_(mins) : 15500.42
   - budget : 0.07
 
-The R^2 score for the model is extreamly high suggesting colinearity.  Additional feature engineering will be done on genre, brand and franchise through the use of dummies.  Earliest releasea date may also factor into the model to assess the effects of seasonality on the model.  
+The R^2 score for the models numerical values is extreamly high suggesting colinearity.  
 
-This initial analysis suggests that budget may have a significant positive impact on a film's revenue. However, the magnitude of the model's residuals makes it clear that budget is not the only important factor in determining the success of a film.
+The next step will be to split the data into train, validation and test segments.  Feature engineering will then be done on genre, brand and franchise through the use of dummies. Features with multicolinearity or colinearity will be dropped.  Earliest release date may also factor into the model to assess the effects of seasonality on the model depending on time.  
+
+Once the feature engineering is completed, the model will be trained tested a
