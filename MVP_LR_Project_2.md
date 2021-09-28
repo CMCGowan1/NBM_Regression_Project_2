@@ -34,4 +34,4 @@ The R^2 score for the models numerical values is extreamly high suggesting colin
 
 The next step will be to split the data into train, validation and test segments.  Feature engineering will then be done on genre, brand and franchise through the use of dummies. Features with multicolinearity or colinearity will be dropped.  Earliest release date may also factor into the model to assess the effects of seasonality on the model depending on time.  
 
-Once the feature engineering is completed, the model will be trained tested a
+The model will be fit, validated and finalized.  Then the steps will be repeated on the test data and a final score will be computed to see how well the model predictions are. 
