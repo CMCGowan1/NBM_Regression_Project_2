@@ -23,7 +23,7 @@ The features of the data set we expect to work with are:
 A subset of the features will be the individual sample/unit of analysis in this project.  TBD based on an iterative process using Linear Regression modeling to find the feature or features that best fit the model.
 
 ## Target
-The target will be worldwide gross. 
+The target will be box office worldwide gross. 
 
 ### Model and Tools
 - Beautiful soup and potentially, Selenium, will be used for webscraping.  Beautiful Soup will be used to parse the HTML data and Selenium will be used as a driver for site navigation
