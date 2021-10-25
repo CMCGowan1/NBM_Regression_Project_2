@@ -13,11 +13,11 @@ The features of the data set we expect to work with are:
 - International Gross
 - Budget 
 - Runtime in minutes
-- Genre a category of artistic composition, characterized by similarities in form, style, or subject matter. More specifically, a film genre is a motion picture category based on the narrative elements that relate to the main driving force behind the story arc. There are 30 Genres in the data set.  Action | Adult | Adventure | Animation| Biography | Comedy | Crime | Documentary | Drama| Family | Fantasy| Film Noir | Game Show | History | Horror | Musical| Music | Mystery | News | Reality-TV | Romance | Sci-Fi | Short| Sport | Talk-Show | Thriller | War | Western 
+- Genre a category of artistic composition, characterized by similarities in form, style, or subject matter. More specifically, a film genre is a motion picture category based on the narrative elements that relate to the main driving force behind the story arc. There are 30 Genres in the data set.  Action | Adult | Adventure | Animation| Biography | Comedy | Crime | Documentary | Drama| Family | Fantasy| Film Noir | Game Show | History | Horror | Musical| Music | Mystery | News | Reality-TV | Romance | Sci-Fi | Short| Sport | Talk-Show | Thriller | War | Western - I will look to narrow this down to the top genres while feature engineering.
 - Brand examples include Marvel Comics, Lucasfilm, Pixar, etc
 - Franchise examples are Marvel Cinematic Universe, Star Wars, Jurassic Park, etc
 - Earliest Release Date
-- Star Rating
+- Star Rating - actors in the top 100 will be considered to have star power.  This feature will have two options, either in the top 100 or not.
 - Cast
 
 The individual sample/unit of analysis in this project is one movie with the features described above.  
