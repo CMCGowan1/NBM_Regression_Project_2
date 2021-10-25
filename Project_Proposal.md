@@ -20,24 +20,19 @@ The features of the data set we expect to work with are:
 - Star Rating
 - Cast
 
-A subset of the features will be the individual sample/unit of analysis in this project.  TBD based on an iterative process using Linear Regression modeling to find the feature or features that best fit the model.
+The individual sample/unit of analysis in this project is one movie with the features described above.  
 
 The target will be box office worldwide gross. 
 
 ### Model and Tools
-- Beautiful soup and potentially, Selenium, will be used for webscraping.  Beautiful Soup will be used to parse the HTML data and Selenium will be used as a driver for site navigation
+- The requests library will be used for requesting the HTML code.  Beautiful Soup will be used to parse the HTML data and Selenium will be used as a driver for site navigation
 - A linear regression model will be used to model the data  
 - Matplotlib and Seaborn will be used for visualization
 - At this time there are no plans to utilize additional tools beyond what has been identified  
 
 ### MVP
-The MVP goal of this project is a linear regression model with one feature and its relationship to daily box office revenue.
+The MVP goal of this project is a linear regression model with one feature and its relationship to box office worldwide gross.
 
 ### Potential Additional Data Sources
--  Popular news stories 
--  Top Book Genres 
--  Pulitzer prize willing books
--  Oprahs book club 
--  Popular TV genres
--  IMDbPro Free trial may have additional data points
+-  Influencer rankings for stars
 
