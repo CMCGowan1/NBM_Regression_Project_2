@@ -22,7 +22,6 @@ The features of the data set we expect to work with are:
 
 A subset of the features will be the individual sample/unit of analysis in this project.  TBD based on an iterative process using Linear Regression modeling to find the feature or features that best fit the model.
 
-## Target
 The target will be box office worldwide gross. 
 
 ### Model and Tools
