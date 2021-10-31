@@ -36,4 +36,4 @@ The next step will be to split the data into train, validation and test segments
 
 The model will be fit, validated and finalized.  Then the steps will be repeated on the test data and a final score will be computed to see how well the model predictions are. 
 
-Additional scraping to see if star ranking and cast can be added as features.
+Note:  Additional scraping in progress to see if star ranking and cast can be added as features.
