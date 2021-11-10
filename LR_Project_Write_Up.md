@@ -1,6 +1,6 @@
 
-Linear Regression Project Write-up
-### Predicting Movie Worldwide Total Gross
+# Linear Regression Project Write-up
+# Predicting Movie Worldwide Total Gross
 
 ## Abstract
 The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are interseting in understanding what features influence box office revenue.  Leveraging the use of feature engineering dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
