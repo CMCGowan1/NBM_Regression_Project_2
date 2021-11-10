@@ -3,13 +3,13 @@
 # Predicting Movie Worldwide Total Gross in the Film Industry
 
 ## Abstract
-The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are interseting in understanding what features influence box office revenue.  Leveraging the use of feature engineering dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
+The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are intereseted in understanding what features influence box office revenue.  Leveraging the use of feature engineering of dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
 
 ## Design
-This project originates from movie producers interest in understand what features make a movie successful at the box office.  
+This project originates from movie producers interest in understanding what features make a movie successful at the box office.  
 
 ## Data
-The dataset contains 1990 movies with 10 features. The data was scraped from BoxOfficeMoJo.com using the Python requests library and the HTML was parsed using Beautiful Soup.  During the scaping process there was a large overlap in duplicates which upon cleaning reduced the data set to 884 obesrvations. Due to the large number of movies with only one brand or franchise associated with it the brand and franchise categoires were factored as either yes brand, yes franchise, or no brand, no franchise.  No brand = 625, Yes Brand = 259.  No Franchise = 490, Yes Franchise = 394.  Genre was bucketed into the top 9 genres, with the largest genre having 659 rows.  The target of the analysis is World Wide Total Gross Revenue at the box office. 
+The dataset contains 1990 movies with 10 features. The data was scraped from BoxOfficeMoJo.com using the Python requests library and the HTML was parsed using Beautiful Soup.  During the scaping process there was a large overlap in duplicates which upon cleaning reduced the data set to 884 obesrvations. Due to the large number of movies with only one brand or franchise associated with it the brand and franchise categoires were factored as either yes brand, yes franchise, or no brand, no franchise.  No brand = 625, Yes Brand = 259.  No Franchise = 490, Yes Franchise = 394.  Genre was bucketed into the top 9 genres, with the largest genre, 'other' having 659 rows.  The target of the analysis is World Wide Total Gross Revenue at the box office. 
 
 ## Algorithms
 Linear Regression
@@ -19,31 +19,15 @@ Feature Engineering
 
 ## Model Evaluation and Selection
 
-The entire training dataset of 59,400 records was split into 80/20 train vs. holdout, and all scores reported below were calculated with 5-fold cross validation on the training portion only. Predictions on the 20% holdout were limited to the very end, so this split was only used and scores seen just once.
+The entire training dataset of 884 records was split into 60/20/20 train, validation, test. All scores reported below were calculated with cross validation. 
 
-The official metric for DrivenData was classification rate (accuracy); however, class weights were included to improve performance against F1 score and provide a more useful real-world application where classification of the minority class (functional needs repair) would be essential.
+Modeling with various features was used and it was determined the best performing model was with only four features: Budget, Brand, Franchise and Runtime Minutes. Incorporating the genre feature caused the model to overfit so it was removed from the model
 
-Final random forest 5-fold CV scores: 99 features (7 numeric) with class weights
+r squared train = 0.4251857922591008
+r squared val = 0.39561384209551376
+r squared test = 0.433074034775081
 
-Accuracy 0.797
-F1 0.791 micro, 0.679 macro
-precision 0.792 micro, 0.722 macro
-recall 0.797 micro, 0.658 macro
-Holdout
-
-Accuracy: 0.802
-F1: 0.795 micro, 0.685 macro
-Precision: 0.796 micro, 0.725 macro
-Recall: 0.802 micro, 0.664 macro
-Tools
-Numpy and Pandas for data manipulation
-Scikit-learn for modeling
-Matplotlib and Seaborn for plotting
-Tableau for interactive visualizations
-Communication
-In addition to the slides and visuals presented, Tanzania Waterpoints (Links to an external site.) will be embedded on my personal website and blog.
-
-Dashboard example with sample statistics
+Seaborn and Matplotlib Visualiztions
 
 ![image](https://user-images.githubusercontent.com/18155025/141036110-9e5915c8-f74a-4363-888b-0c1d8b252cc8.png)
 
