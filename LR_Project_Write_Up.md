@@ -3,13 +3,13 @@
 # Predicting Movie Worldwide Total Gross in the Film Industry
 
 ## Abstract
-The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are intereseted in understanding what features influence box office revenue so they can make the best choice in which films to invest time and money.  Leveraging the use of feature engineering of dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
+The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are intereseted in understanding what features influence box office revenue.  The goal is to determine what type of film to produce next.  Leveraging the use of feature engineering of dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
 
 ## Design
 This project originates from movie producers interest in understanding what features make a movie successful at the box office.  
 
 ## Data
-The dataset contains 1990 movies with 10 features. The data was scraped from BoxOfficeMoJo.com using the Python requests library and the HTML was parsed using Beautiful Soup.  During the scaping process there was a large overlap in duplicates which upon cleaning reduced the data set to 884 obesrvations. Due to the large number of movies with only one brand or franchise associated with it the brand and franchise categoires were factored as either yes brand, yes franchise, or no brand, no franchise.  No brand = 625, Yes Brand = 259.  No Franchise = 490, Yes Franchise = 394.  Genre was bucketed into the top 9 genres, with the largest genre, 'other' having 659 rows.  The target of the analysis is World Wide Total Gross Revenue at the box office. 
+The dataset contains 1990 movies with 10 features. The data was scraped from BoxOfficeMoJo.com using the Python requests library and the HTML was parsed using Beautiful Soup.  During the scaping process there was a large overlap in duplicates which upon cleaning reduced the data set to 884 obesrvations. Due to the large number of movies with only one brand or franchise associated with it the brand and franchise categories were factored as either yes brand, yes franchise, or no brand, no franchise.  No brand = 625, Yes Brand = 259.  No Franchise = 490, Yes Franchise = 394.  Genre was bucketed into the top 9 genres, with the largest genre, 'other' having 659 rows.  The target of the analysis is World Wide Total Gross Revenue at the box office. 
 
 ## Algorithms
 Linear Regression
@@ -21,13 +21,15 @@ Feature Engineering
 
 The entire training dataset of 884 records was split into 60/20/20 train, validation, test. All scores reported below were calculated with cross validation. 
 
-Modeling with various features was used and it was determined the best performing model was with only four features: Budget, Brand, Franchise and Runtime Minutes. Incorporating the genre feature caused the model to overfit so it was removed from the model
+Modeling with various feature combinations was used and it was determined the best performing model was with only four features: Budget, Brand, Franchise and Runtime Minutes. Incorporating the genre feature caused the model to overfit so genre was removed from the model.  Earliest Release Date as also removed from the model as that feature is better suited for a time series approach.
 
+
+SCORES for final model
 r squared train = 0.4251857922591008
 r squared val = 0.39561384209551376
 r squared test = 0.433074034775081
 
-Seaborn and Matplotlib Visualiztions
+Seaborn and Matplotlib Visualizations
 
 ![image](https://user-images.githubusercontent.com/18155025/141036110-9e5915c8-f74a-4363-888b-0c1d8b252cc8.png)
 
