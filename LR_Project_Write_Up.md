@@ -47,6 +47,8 @@ Dashboard example with sample statistics
 
 ![image](https://user-images.githubusercontent.com/18155025/141036110-9e5915c8-f74a-4363-888b-0c1d8b252cc8.png)
 
+![image](https://user-images.githubusercontent.com/18155025/141036234-5a9a1afb-4e64-4396-ba92-31bf6949deb6.png)
+
 ![image](https://user-images.githubusercontent.com/18155025/141036156-cf2a5187-8255-4d03-acd4-638ecf19e440.png)
 
 ![image](https://user-images.githubusercontent.com/18155025/141035874-573d4259-d8e2-4517-af0d-4840444b27a4.png)
