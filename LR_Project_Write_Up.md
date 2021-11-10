@@ -27,13 +27,15 @@ The entire training dataset of 884 records was split into 60/20/20 train, valida
 Modeling with various feature combinations was used and it was determined the best performing model was with only four features: Budget, Brand, Franchise and Runtime Minutes. Incorporating the genre feature caused the model to overfit so genre was removed from the model.  Earliest Release Date as also removed from the model as that feature is better suited for a time series approach.
 
 
-SCORES for final model
+SCORES for Final Model
 
 r squared train = 0.4251857922591008
 
 r squared val = 0.39561384209551376
 
 r squared test = 0.433074034775081
+
+A positive linear relationship exists between budget and world wide total gross revenue.  The model is not predictive of what the best features are to produce box office revenue.  There is high multicollineariy and the presence of Heteroskedasticity.  More work is needed in standardizing the values to lower the coefficients.  Additional tuning of the model via log, square root or box cox analysis is needed to transform the target to reduce Heterokedasticity.
 
 Seaborn and Matplotlib Visualizations
 
