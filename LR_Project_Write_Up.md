@@ -1,28 +1,23 @@
 
 Linear Regression Project Write-up
-Predicting Movie Worldwide Total Gross
+### Predicting Movie Worldwide Total Gross
 
-Abstract
-The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are interseting in understanding what features influence box office revenue.  Leveraging the use of dummy variables to analyze the categorical features of genre, franchise and brand.  operating condition of waterpoints in Tanzania in order to help improve the operations and maintenance planning of these units. I worked with data provided by Taarifa (Links to an external site.) and the Tanzanian Ministry of Water, leveraging geographic and categorical feature engineering along with a random forest model to achieve promising results for this multiclass problem. After refining a model, I built an interactive dashboard to visualize and communicate my results using Tableau.
+## Abstract
+The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are interseting in understanding what features influence box office revenue.  Leveraging the use of feature engineering dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
 
-Design
-This project originates from the DrivenData competition (Links to an external site.) "Pump it Up: Data Mining the Water Table". The data is provided by Taarifa (Links to an external site.) and the Tanzanian Ministry of Water, and presents a three-class operational status of functional, functional needs repair, and non-functional for waterpoints across the country. Classifying statuses accurately via machine learning models would enable the Tanzanian Ministry of Water to take action to improve operations and maintenance planning of these units, allocate resources more quickly to needed areas, and ensure potable water is accessible to as many people as possible.
+## Design
+This project originates from movie producers interest in understand what features make a movie successful at the box office.  
 
-Data
-The dataset contains 59,400 waterpoints with 40 features for each, 32 of which are categorical. A few feature highlights include measurements of water quantity and quality, pump types, and latitude/longitude coordinates. Nearly a third of the individual features could be grouped into more general categories, and an in-depth analysis of 20 of them was undertaken to inform baseline models and feature engineering.
+## Data
+The dataset contains 1990 movies with 10 features. The data was scraped from BoxOfficeMoJo.com using the Python requests library and the HTML was parsed using Beautiful Soup.  During the scaping process there was a large overlap in duplicates which upon cleaning reduced the data set to 884 obesrvations. Due to the large number of movies with only one brand or franchise associated with it the brand and franchise categoires were factored as either yes brand, yes franchise, or no brand, no franchise.  No brand = 625, Yes Brand = 259.  No Franchise = 490, Yes Franchise = 394.  Genre was bucketed into the top 9 genres, with the largest genre having 659 rows.  The target of the analysis is World Wide Total Gross Revenue at the box office. 
 
-Algorithms
+## Algorithms
+Linear Regression
+OLS
+R^2
 Feature Engineering
 
-Mapping latitude and longitude to 3-dimensional coordinates so nearby continuous values would also be close in reality
-Converting categorical features to binary dummy variables
-Combining particular dummies and ranges of numeric features to highlight strong signals and illogical values for waterpoint status identified during EDA
-Selecting subsets of the total unique values for categorical features that were converted to dummies, according to the number of samples they were associated with and their contribution to certain statuses
-Models
-
-Logistic regression, k-nearest neighbors, and random forest classifiers were used before settling on random forest as the model with strongest cross-validation performance. Random forest feature importance ranking was used directly to guide the choice and order of variables to be included as the model underwent refinement.
-
-Model Evaluation and Selection
+## Model Evaluation and Selection
 
 The entire training dataset of 59,400 records was split into 80/20 train vs. holdout, and all scores reported below were calculated with 5-fold cross validation on the training portion only. Predictions on the 20% holdout were limited to the very end, so this split was only used and scores seen just once.
 
@@ -47,5 +42,8 @@ Matplotlib and Seaborn for plotting
 Tableau for interactive visualizations
 Communication
 In addition to the slides and visuals presented, Tanzania Waterpoints (Links to an external site.) will be embedded on my personal website and blog.
+
+Dashboard example with sample statistics
+![image](https://user-images.githubusercontent.com/18155025/141035874-573d4259-d8e2-4517-af0d-4840444b27a4.png)
 
 Dashboard example with sample statistics
