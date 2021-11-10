@@ -1,6 +1,6 @@
 
 # Linear Regression Project Write-up
-# Predicting Movie Worldwide Total Gross
+# Predicting Movie Worldwide Total Gross in the Film Industry
 
 ## Abstract
 The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are interseting in understanding what features influence box office revenue.  Leveraging the use of feature engineering dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
@@ -44,6 +44,19 @@ Communication
 In addition to the slides and visuals presented, Tanzania Waterpoints (Links to an external site.) will be embedded on my personal website and blog.
 
 Dashboard example with sample statistics
+
+![image](https://user-images.githubusercontent.com/18155025/141036110-9e5915c8-f74a-4363-888b-0c1d8b252cc8.png)
+
+![image](https://user-images.githubusercontent.com/18155025/141036156-cf2a5187-8255-4d03-acd4-638ecf19e440.png)
+
 ![image](https://user-images.githubusercontent.com/18155025/141035874-573d4259-d8e2-4517-af0d-4840444b27a4.png)
 
-Dashboard example with sample statistics
+![image](https://user-images.githubusercontent.com/18155025/141036054-306601b1-bd94-4f8d-90bf-c873c0868319.png)
+
+![image](https://user-images.githubusercontent.com/18155025/141036082-d883992a-2404-46f4-96ac-93480e7c0cac.png)
+
+![image](https://user-images.githubusercontent.com/18155025/141036132-da122a0f-bd49-4be8-9214-ecbd68d4892e.png)
+
+
+
+
