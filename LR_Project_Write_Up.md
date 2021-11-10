@@ -3,7 +3,7 @@
 # Predicting Movie Worldwide Total Gross in the Film Industry
 
 ## Abstract
-The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are intereseted in understanding what features influence box office revenue.  Leveraging the use of feature engineering of dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
+The goal of this project was to use a linear regression model to predict what features influence box office success.  The global film market reached a record breaking $100 Billion in 2020 and film producers are intereseted in understanding what features influence box office revenue so they can make the best choice in which films to invest time and money.  Leveraging the use of feature engineering of dummy variables to analyze the categorical variables of genre, franchise and brand.  I built a Linear Regression model to assess R^2, heteroskedasticity and to plot residuals in order to interpret data and make predictions.  
 
 ## Design
 This project originates from movie producers interest in understanding what features make a movie successful at the box office.  
