@@ -13,8 +13,11 @@ The dataset contains 1990 movies with 10 features. The data was scraped from Box
 
 ## Algorithms
 Linear Regression
+
 OLS
+
 R^2
+
 Feature Engineering
 
 ## Model Evaluation and Selection
@@ -25,8 +28,11 @@ Modeling with various feature combinations was used and it was determined the be
 
 
 SCORES for final model
+
 r squared train = 0.4251857922591008
+
 r squared val = 0.39561384209551376
+
 r squared test = 0.433074034775081
 
 Seaborn and Matplotlib Visualizations
